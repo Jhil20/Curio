@@ -1,13 +1,13 @@
 # Curio
 ## Software Requirements Specification (SRS) and Technical Design Document
 
-**Document Version:** 1.0  
-**Project:** Curio  
-**Document Type:** Software Requirements Specification and Technical Design  
-**Development Approach:** Incremental, stage-based development  
-**Backend:** Python + FastAPI  
-**Frontend:** React + TypeScript  
-**Database:** PostgreSQL  
+**Document Version:** 1.0
+**Project:** Curio
+**Document Type:** Software Requirements Specification and Technical Design
+**Development Approach:** Incremental, stage-based development
+**Backend:** Python + FastAPI
+**Frontend:** React + TypeScript
+**Database:** PostgreSQL
 
 ---
 

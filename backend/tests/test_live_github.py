@@ -1,11 +1,9 @@
 import pytest
-from httpx import ASGITransport, AsyncClient
-
-from app.core.config import settings
 from app.integrations.github.client import GitHubClient
 from app.main import app
 from app.schemas.github import RepositorySearchParams
 from app.services.discovery_service import RepositoryDiscoveryService
+from httpx import ASGITransport, AsyncClient
 
 
 @pytest.mark.asyncio
