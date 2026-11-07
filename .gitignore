@@ -1,0 +1,45 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.coverage.*
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment and Secrets (CRITICAL: Never commit .env files)
+.env
+.env.*
+!.env.example
+
+# Database and Container Volumes
+postgres_data/
+pgdata/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Directories
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# Build / Distribution Artifacts
+dist/
+build/
+*.egg-info/
