@@ -45,8 +45,13 @@ class Settings(BaseSettings):
             f"{self.POSTGRES_SERVER}:{self.POSTGRES_PORT}/{self.POSTGRES_DB}"
         )
 
-    # Future integration tokens
+    # GitHub Integration Configuration
     GITHUB_TOKEN: str = ""
+    GITHUB_API_BASE_URL: str = "https://api.github.com"
+    GITHUB_API_VERSION: str = "2022-11-28"
+    GITHUB_TIMEOUT_SECONDS: float = 15.0
+
+    # Future integration tokens
     OPENAI_API_KEY: str = ""
     OPENAI_MODEL: str = "gpt-4o-mini"
 
